@@ -9,6 +9,7 @@ body {
     background-color: cadetblue;
     width: 100%;
     height: 100%;
+    margin: 0;
 
 }
 main {
@@ -35,4 +36,18 @@ main {
 .redes-sociais {
     width: 25%;
     float: right;
+}
+
+.menu ul li {
+    margin-left: 15px;
+    display: flex;
+    text-align: center;
+    list-style: none;
+}
+
+.imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
