@@ -38,3 +38,38 @@ main {
     float: right;
 }
 
+.imgcenter {
+    text-align: center;
+    margin-top: 25px;
+    background-size: contain;
+    display: block;
+    position: relative;
+
+
+}
+
+
+.menu1 {
+        margin: auto;
+        background-color: palegoldenrod;
+        height: 45px;
+        text-align: center;
+
+
+}
+
+.menu1 ul li{
+        list-style-type: none;
+        display: inline-block;
+        float: inline-end;
+        border: palegreen;
+        border-style: solid;
+
+
+
+}
+
+.menu1 a {
+    text-decoration: none;
+
+}
