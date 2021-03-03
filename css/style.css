@@ -50,25 +50,37 @@ main {
 
 
 .menu1 {
-        margin: auto;
+        width: 100%;
+        margin: 0;
         background-color: palegoldenrod;
-        height: 45px;
-        position: relative;
+        text-align: center;
+        display: inline-block;
+        word-spacing: 0x;
+        padding: 10px;
 
 
+
+
+}
+
+.menu1 ul {
+    margin:0px;
+    list-style-type: none;
+    
 }
 
 .menu1 ul li{
-        position: absolute;
-        list-style-type: none;       
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        display: inline;
+        margin-right: 20px;
+
+                 
 }
 
 
-
-.menu1 a {
+.menu1 ul li a {
     text-decoration: none;
+    padding: 2px 5px;
+    display: inline-block;
+
 
 }
