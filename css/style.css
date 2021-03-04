@@ -84,3 +84,17 @@ main {
 
 
 }
+
+@media screen and (max-width: 500px) {
+
+    .menu1 {
+        width: 100%%;
+        margin: 0;
+        background-color: palegoldenrod;
+        text-align: center;
+        display: inline-block;
+        word-spacing: 0x;
+        padding: 10px;
+
+
+}
