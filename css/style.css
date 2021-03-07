@@ -90,11 +90,18 @@ main {
     .menu1 {
         width: 100%%;
         margin: 0;
-        background-color: palegoldenrod;
+        background-color: red;
         text-align: center;
         display: inline-block;
         word-spacing: 0x;
         padding: 10px;
 
+
+}
+
+.pesquisa1 {
+
+        display: inline-block;
+        text-align: left;
 
 }
