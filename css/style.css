@@ -1,17 +1,16 @@
 .menuprincipal {
-    background-color: 	#FFFFF0;
+    background-color: #FFFFF0;
     height: 60px;
     width: 100%;
-    }
-
+}
 
 body {
-    background-color: orange;
+    background-color: black;
     width: 100%;
     height: 100%;
     margin: 0;
-
 }
+
 main {
     margin: 0 auto;
     width: 980px;
@@ -22,7 +21,6 @@ main {
     float: left;
     padding: 1px;
     width: 70%;
-
 }
 
 .redes-sociais ul li {
@@ -30,7 +28,6 @@ main {
     display: inline-block;
     float: left;
     list-style: none;
-
 }
 
 .redes-sociais {
@@ -44,48 +41,36 @@ main {
     background-size: contain;
     display: block;
     position: relative;
-
-
 }
 
-
 .menu1 {
-        width: 100%;
-        margin: 0;
-        background-color: palegoldenrod;
-        text-align: center;
-        display: inline-block;
-        word-spacing: 0x;
-        padding: 10px;
-
-
-
-
+    width: 100%;
+    margin: 0;
+    background-color: palegoldenrod;
+    text-align: center;
+    display: inline-block;
+    word-spacing: 0x;
+    padding: 10px;
 }
 
 .menu1 ul {
-    margin:0px;
+    margin: 0px;
     list-style-type: none;
-    
 }
 
-.menu1 ul li{
-        display: inline;
-        margin-right: 20px;
-
-                 
+.menu1 ul li {
+    display: inline;
+    margin-right: 20px;
 }
-
 
 .menu1 ul li a {
     text-decoration: none;
     padding: 2px 5px;
     display: inline-block;
-
-
 }
 
 @media screen and (max-width: 500px) {
+
 
     .menu1 {
         width: 100%%;
@@ -93,15 +78,10 @@ main {
         background-color: red;
         text-align: center;
         display: inline-block;
-        word-spacing: 0x;
         padding: 10px;
-
-
-}
-
-.pesquisa1 {
-
+    }
+    .pesquisa1 {
         display: inline-block;
         text-align: left;
+    }
 
-}
